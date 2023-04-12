@@ -25,3 +25,28 @@ h1, h2, h3 {
  tmavsi     #95a5a6
  tmava      #34495e
 */
+
+.menu li{
+    display: inline-block;
+}
+.menu{
+    padding: 0;
+    text-align: center;
+    background-color: yellow;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    background-color: green;
+    display: inline-block;
+    padding: 50px;
+}
+
+.menu a:hover{
+        color: yellow;
+    background-color: deeppink;
+   
+}
+/*git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"

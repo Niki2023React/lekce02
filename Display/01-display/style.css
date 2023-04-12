@@ -44,6 +44,11 @@ h1, h2, h3 {
     margin: 1px 0;
     color: white;
     border: 1px solid black;
+    display: inline-block;
+    /*display: none;* u responze
+    visibility: hidden; není vidět ale zabírá místo ROZDÍL
+    OPACITY: 50%;
+    /
 }
 
 .prvni {
@@ -57,5 +62,7 @@ h1, h2, h3 {
 .treti {
     background-color: #e74c3c;
 }
-
+a {
+    display: block;
+}
 
